@@ -7,6 +7,13 @@ $('.styleone').click(function() {
 	if (index >= colors.length)
   	index = 0;
             $(this).css('background-color',colors[index]);
+                //if (colors[index] = 'black') {
+                if (index == 9) {
+                    $(this).css('color', 'white');
+                }   else if (index == 8) {
+                        $(this).css('color', '#f9f60d');
+                }   else {
+                        $(this).css('color', '#0e1d7d')};
             index++;
         });
 
