@@ -4,3 +4,7 @@
     font-size: 40px;
     color: #0e1d7d;
 }
+
+.paragraph:hover {
+    cursor: pointer;
+}
